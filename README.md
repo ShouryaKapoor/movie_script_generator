@@ -18,7 +18,7 @@ Welcome to **Movie-Script-Generator**, a Python-based project powered by Google 
 - **Language**: Python 🐍  
 - **AI Engine**: Google Gen-AI 🤖  
 - **Dependencies**:  
-  - `gemini-genai` (for AI integration)
+  - `openai` (for AI integration)
   - `Flask` (optional: for creating a user-friendly web interface)
   - `PDFKit` (for exporting scripts as PDFs)  
 
@@ -28,5 +28,58 @@ Welcome to **Movie-Script-Generator**, a Python-based project powered by Google 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/movie-script-generator.git
+   git clone https://github.com/shouryakapoor/movie-script-generator.git
    cd movie-script-generator
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set Up API Key**:  
+   Obtain your Google Gen-AI API key and add it to your `.env` file:
+   ```plaintext
+   GENAI_API_KEY=your_api_key_here
+   ```
+
+4. **Run the Script**:
+   ```bash
+   python script_generator.py
+   ```
+
+---
+
+## 🧑‍💻 Usage
+
+1. **Input Your Prompt**: Provide a brief idea or theme for your movie. Example: *"A detective solving a crime in a dystopian future."*
+2. **Choose a Genre**: Select from available genres like Comedy, Drama, Horror, etc.
+3. **Generate the Script**: Let Google Gen-AI craft an amazing script for you in seconds!
+4. **Save and Share**: Export the generated script and share it with collaborators.
+
+---
+
+## 🌟 Showcase
+
+![Movie Script Generator Demo](https://your-demo-image-url-here)
+
+---
+
+## 🙌 Acknowledgments
+
+A big thanks to:  
+- **Google Gen-AI** for its incredible text generation capabilities.
+- **The Python Community** for making development easy and fun.
+
+---
+
+## 📬l Contact
+
+For any questions, feedback, or feature requests, feel free to reach out:  
+- **Email**: shouryakapoor13@gmail.com  
+- **GitHub**: [ShouryaKapoor](https://github.com/ShouryaKapoor)  
+
+---
+
+> "Movies are like dreams, only now you have the tools to create them." 🎮
+
