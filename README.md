@@ -45,7 +45,7 @@ To run the application, simply execute the following command in your terminal:
    ```bash
    python movie_script_generator.py
 ```
-- **The GUI window will open, where you can:**
+**The GUI window will open, where you can:**
 
  - Enter your desired genre (e.g., Sci-Fi, Drama).
  - Provide characters (e.g., Hero, Villain, Sidekick).
