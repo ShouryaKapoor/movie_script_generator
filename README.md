@@ -1,85 +1,63 @@
-# 🎥 Movie Script Generator
+# 🎬 Movie Script Generator: Powered by Gen-AI
 
-Welcome to **Movie-Script-Generator**, a Python-based project powered by Google Gen-AI to bring your creative story ideas to life! Whether you're crafting a gripping thriller, a heartwarming drama, or a quirky comedy, this project helps you generate engaging and unique movie scripts with just a few clicks.
-
----
-
-## 🚀 Features
-
-- **AI-Powered Creativity**: Leverages Google Gen-AI to produce high-quality and contextually accurate movie scripts.
-- **Genre Flexibility**: Supports multiple genres including action, romance, sci-fi, and more.
-- **Dynamic Customization**: Input your own story prompts, characters, or settings to guide the script generation process.
-- **Export Options**: Save your scripts in `.txt` or `.pdf` formats for easy sharing or editing.
+Welcome to the **Movie Script Generator** project! This platform leverages cutting-edge generative AI technology to help you create unique movie scripts based on the genre, characters, and scene descriptions you provide. Whether you're a filmmaker, writer, or enthusiast, this tool will inspire your next screenplay with just a few clicks!
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 About the Project
 
-- **Language**: Python 🐍  
-- **AI Engine**: Google Gen-AI 🤖  
-- **Dependencies**:  
-  - `openai` (for AI integration)
-  - `Flask` (optional: for creating a user-friendly web interface)
-  - `PDFKit` (for exporting scripts as PDFs)  
+The **Movie Script Generator** is a simple yet powerful application that uses Google's **Generative AI** to generate movie scripts based on user inputs. The application is designed with a user-friendly interface to make script generation fun and intuitive. 
+
+### Features:
+- **AI-Powered Script Generation:** Just input a genre, character list, and scene description, and let AI generate an entire movie script.
+- **Customizable Inputs:** Tailor the script to your needs with flexible input fields.
+- **Interactive UI:** Built with **Tkinter** for an easy-to-use graphical interface.
+- **Background Image:** Enhances the user experience with visually engaging design elements.
+  
+---
+
+## 📸 Screenshots
+
+![Movie Script Generator Screenshot](./App_draft1.jpg) 
 
 ---
 
-## 📦 Installation
+## 🚀 Getting Started
 
-1. **Clone the Repository**:
+Follow these steps to set up and run the project locally:
+
+### Prerequisites
+
+1. **Python 3.7+**  
+   Ensure you have Python 3.7 or higher installed on your machine.
+
+2. **Required Libraries**  
+   Install the necessary libraries using `pip`:
    ```bash
-   git clone https://github.com/shouryakapoor/movie-script-generator.git
-   cd movie-script-generator
-   ```
+   pip install google-generativeai tkinter pillow
+3. **API Key**
+   Replace the placeholder API key in the code with your Google Generative AI API key for the script generation to work:
+   ```python
+   genai.configure(api_key="YOUR_GOOGLE_API_KEY")
 
-2. **Install Dependencies**:
+### 🔧 Running the Application
+To run the application, simply execute the following command in your terminal:
    ```bash
-   pip install -r requirements.txt
-   ```
+   python movie_script_generator.py
+```
+The GUI window will open, where you can:
 
-3. **Set Up API Key**:  
-   Obtain your Google Gen-AI API key and add it to your `.env` file:
-   ```plaintext
-   GENAI_API_KEY=your_api_key_here
-   ```
+. Enter your desired genre (e.g., Sci-Fi, Drama).
+. Provide characters (e.g., Hero, Villain, Sidekick).
+. Describe the scene (e.g., a rainy city at night).
+. Click Generate Script to view the result!
 
-4. **Run the Script**:
-   ```bash
-   python script_generator.py
-   ```
+### 🧑‍💻 Example Usage
+Genre: Fantasy
+Characters: Knight, Dragon, Princess
+Scene Description: A grand castle surrounded by mist, with a looming dragon in the distance.
+Click Generate Script and watch as the AI crafts an engaging script for you.
 
----
-
-## 🧑‍💻 Usage
-
-1. **Input Your Prompt**: Provide a brief idea or theme for your movie. Example: *"A detective solving a crime in a dystopian future."*
-2. **Choose a Genre**: Select from available genres like Comedy, Drama, Horror, etc.
-3. **Generate the Script**: Let Google Gen-AI craft an amazing script for you in seconds!
-4. **Save and Share**: Export the generated script and share it with collaborators.
-
----
-
-## 🌟 Showcase
-
-![Movie Script Generator Demo](https://your-demo-image-url-here)
-
----
-
-## 🙌 Acknowledgments
-
-A big thanks to:  
-- **Google Gen-AI** for its incredible text generation capabilities.
-- **The Python Community** for making development easy and fun.
-
----
-
-## 📬l Contact
-
-For any questions, feedback, or feature requests, feel free to reach out:  
-- **Email**: shouryakapoor13@gmail.com  
-- **GitHub**: [ShouryaKapoor](https://github.com/ShouryaKapoor)  
-
----
 
 > "Movies are like dreams, only now you have the tools to create them." 🎮
 
