@@ -57,6 +57,31 @@ To run the application, simply execute the following command in your terminal:
 - Characters: Knight, Dragon, Princess
 - Scene Description: A grand castle surrounded by mist, with a looming dragon in the distance.
 - Click Generate Script and watch as the AI crafts an engaging script for you.
+  
+### 🛠️ Technologies Used
+- Python - For the backend logic and AI integration.
+- Tkinter - To build the GUI for an interactive user experience.
+- Google Generative AI - To generate movie scripts based on user input.
+- Pillow - For handling background image in the GUI.
+  
+### 📚 Future Enhancements
+- Add support for multiple genres and scene settings for even more creativity.
+- Allow users to save or download the generated script.
+- Integrate voice-to-text functionality for hands-free interaction.
+
+### 🤝 Contributing
+We welcome contributions to make this project even better! Feel free to open an issue, fork the repo, or submit a pull request with improvements or bug fixes.
+
+### 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### 📝 Acknowledgements
+-Google Generative AI - For providing the power to generate movie scripts.
+-Tkinter & Pillow - For making the GUI experience smooth and delightful.
+-Thank you for checking out the Movie Script Generator! 🌟
+
+
+Happy scripting! 🎥✨
 
 
 > "Movies are like dreams, only now you have the tools to create them." 🎮
