@@ -45,18 +45,18 @@ To run the application, simply execute the following command in your terminal:
    ```bash
    python movie_script_generator.py
 ```
-The GUI window will open, where you can:
+- **The GUI window will open, where you can:
 
-. Enter your desired genre (e.g., Sci-Fi, Drama).
-. Provide characters (e.g., Hero, Villain, Sidekick).
-. Describe the scene (e.g., a rainy city at night).
-. Click Generate Script to view the result!
+ - **Enter your desired genre (e.g., Sci-Fi, Drama).
+ - **Provide characters (e.g., Hero, Villain, Sidekick).
+ - **Describe the scene (e.g., a rainy city at night).
+ - **Click Generate Script to view the result!
 
 ### 🧑‍💻 Example Usage
-Genre: Fantasy
-Characters: Knight, Dragon, Princess
-Scene Description: A grand castle surrounded by mist, with a looming dragon in the distance.
-Click Generate Script and watch as the AI crafts an engaging script for you.
+- **Genre: Fantasy
+- **Characters: Knight, Dragon, Princess
+- **Scene Description: A grand castle surrounded by mist, with a looming dragon in the distance.
+- **Click Generate Script and watch as the AI crafts an engaging script for you.
 
 
 > "Movies are like dreams, only now you have the tools to create them." 🎮
